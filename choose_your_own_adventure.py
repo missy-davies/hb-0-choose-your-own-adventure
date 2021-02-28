@@ -1,12 +1,15 @@
 # CHOOSE YOUR OWN ADVENTURE | WORLD TRAVEL
 
+# Collect user input for name and set the scene
 user = input("What is your name? ")
 print(f"Ready to go on an adventure, {user}?")
 print("Today you will be traveling across the world.")
 
+# Collect more input from user and start the adventure 
 friend = input("Who do you want to take with you? ")
 print(f"Awesome! Alright {user}, you and {friend} will be leaving for a trip today, but where do you want to go?")
 
+# Two way adventure beings- either France or Italy with two scenarios for each 
 destination = int(input("Choose 1 for Italy or 2 for France. "))
 if destination == 1:
     print("Fantastico! Just like that, you find yourselves in Italy, ready to eat and explore. But what's first?")
